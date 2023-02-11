@@ -1,0 +1,26 @@
+Project1 Analysis the features influence Car Price
+Welcome to my repository
+I’m learning to code, interested in data analytics and data science, aiming to be hired by March of 2023
+This project aims to build a linear regression model to identify and evaluate the primary features which have substantial impact on Car Price through Python Pandas, Numpy, Seaborn, Matplotlib, Scipy, Sklearn.
+The detail steps to approach the cases is
+1. Overview
+- Acquire some basic knowledge about data, how the various features are distributed and whether there are missing values, untreated format data. 
+- Subdivide variables into 2 types concluding categorical and numerical features, this process help to check distribution (apply describe() function) 
+2. Exploratory Data Analysis 
+- Univariate Descriptive Statistics
+  + Analysis each feature in more detail 
+  + Graphically approach
+    + Hisplot and kdeplot to identify how data is distributed (normal distribution, skew distribution) 
+    + Boxplot to check outliers of numerical variables
+    + Countplot visualize frequency of values 
+- Bivariate analysis 
+  + Numerical lmplot, heatmap and pearson to check relationship between independent features and dependent features 
+  + Categorical Violinplot to visualize how categorical variables affect price
+3. Data Preprocessing 
+- Feature Selection Filter selection through check correlation (criteria 0.7)
+- Split Dataset in to Data train set and data test set
+- Feature Scaling Check which type of feature scaling technique is optimal to apply for dataset
+- Apply feature scaling for training set and test set 
+4. Build model and evaluate model
+- Build OLS model
+- Calculate R squared, mean_squared_error and accuracy_score 
