@@ -1,6 +1,3 @@
-Welcome to my repository!<p>
-I’m learning to code, interested in data analytics and data science, aiming to be hired by March of 2023<p>
-This repository have been created with intention to practise and showcase my skillsets.<p>
 # Case study description <br>
 **Description:** Geely Auto is a leading automobile manufacturer based in Hangzhou that plans to expand business to the American market through establishing manufacturing factories with ambition to win against both domestic and European competitors in the US market. <p>
 **Objectives:**  <p>
@@ -17,7 +14,7 @@ This repository have been created with intention to practise and showcase my ski
 - carbody: car body types (sedan, wagon, hatchback)
 - drivewheel: type of drivewheel 
 - enginelocation: location of engine 
-- wheelbase: length of wheelbase, length of car, width of car, Weight of car without people or luggage, size of engine, car bore-ratio, Horsepower
+- wheelbase: length of wheelbase
 - carlength: length of car 
 - carwidth: width of car 
 - carheight: height of car 
@@ -38,10 +35,13 @@ This repository have been created with intention to practise and showcase my ski
 
 # A. Approach 
 **Car project:** This project aims to build a linear regression model to identify and evaluate the primary features which have substantial impact on Car Price through Python Pandas, Numpy, Seaborn, Matplotlib, Scipy, Sklearn. <br>
-The detail steps to approach the cases is:
+  
+The detail steps to approach the cases is:<br>
+  
 **1. Overview**  <br>
   - Acquire some basic knowledge about data, how the various features are distributed and whether there are missing values, untreated format data. 
-  - Subdivide variables into 2 types concluding categorical and numerical features, this process help to check distribution (apply describe() function) 
+  - Subdivide variables into 2 types concluding categorical and numerical features, this process help to check distribution (apply describe() function) <br>
+  
 **2. Exploratory Data Analysis** <br>
   - Univariate Descriptive Statistics:
     + Analysis each feature in more detail 
@@ -51,12 +51,14 @@ The detail steps to approach the cases is:
       + Countplot: visualize frequency of values 
   - Bivariate analysis: 
     + Numerical: lmplot, heatmap and pearson to check relationship between independent features and dependent features 
-    + Categorical: Violinplot to visualize how categorical variables affect price
+    + Categorical: Violinplot to visualize how categorical variables affect price <br>
+  
 **3. Data Preprocessing** <br>
   - Feature Selection: Filter selection through check correlation (criteria >0.7)
   - Split Dataset in to Data train set and data test set
   - Feature Scaling: Check which type of feature scaling technique is optimal to apply for dataset
-  - Apply feature scaling for training set and test set 
+  - Apply feature scaling for training set and test set <br>
+  
 **4. Build model and evaluate model** <br>
   - Build OLS model
   - Calculate R squared, mean_squared_error and accuracy_score 
@@ -71,7 +73,7 @@ The average price of a car is about $13277, ranging from over $5000 to around $4
 Americans seem to have high-demand for lower car prices,  accounting for the majority percentage of the total car, at around 58.5%, the figure for medium price and luxury price were considerably lower, at approximately 29,8% and 12.7%. <br>
 ### 2. Competitors 
 <img src="https://user-images.githubusercontent.com/109226305/219997189-9ebbbcb6-98af-43d6-894c-7b9a53569705.jpg" width=90% height=90%> <br>
-As we can see, Toyota is the dominant company in producing the highest number of different types of cars, at approximately 15.6% and this is followed by Nissan and Mazda at about 8.3%. However, the car price of three companies is at about $9685.81, $10787.5, $10652.9 respectively, all below the average car price, at $13277. <br>
+As we can see, Toyota is the dominant company in producing the highest number of different types of cars, at approximately 15.6% and this is followed by Nissan and Mazda at about 8.8%, 8.3% respectively. However, the car price of three companies is at about $9685.81, $10415.7, $10652.9 respectively, all below the average car price, at $13277. <br>
 ### 3. The features have significant influence in car prices
 **3.1. Numerical features**
 Based on Pearsonr test, We can make the following observations:<br>
