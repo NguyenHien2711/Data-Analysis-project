@@ -96,6 +96,7 @@ By using the Sklearn library, I have built a basic model in order to predict car
 ![Capture](https://user-images.githubusercontent.com/109226305/219998717-de325d14-9bbb-4fc2-97f6-3905ce880cd3.PNG) <br>
 Some conclusion we can made for the OLS Regression model:
   - When carwidth is reduced by 1, the car price is reduced by 0.1665 times,on the condition that all other features do not change
+  - When enginesize is increased by 1, the car price is increased by 0.4194 times,on the condition that all other features do not change
 
 ---------------------------------------------------------------------------------------------------
 Thank you for your time and consideration. Hope this repo would help you to assess my Python skills!<br>
