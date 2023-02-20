@@ -64,7 +64,7 @@ The detail steps to approach the cases is:<br>
   - Calculate R squared, mean_squared_error and accuracy_score 
 
 # B. Summary result 
-### 1.Market overview
+### 1. Market overview
 ![price](https://user-images.githubusercontent.com/109226305/219996196-ee1d83ac-36ea-4c6d-ac76-a2651c658e51.jpg)  <img src="https://user-images.githubusercontent.com/109226305/219996359-99052d71-ce05-47fa-ae23-3e6a316c0e16.jpg" width=30% height=30%> <br>
 Suppose: According to price classification, we could necessarily subdivide the competitors into 3 groups including luxurious car brands having price more than $20000, ordinary car brands having price less than $20000 and over $12000, and the cars having price under $12000 were grouped into lower car brands. <br>
 The histogram graph shows the frequency of car prices and the pie chart describes the proportion of car types in 3 kinds of car brands classified by price in the US market. <br>
